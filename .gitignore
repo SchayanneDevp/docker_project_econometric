@@ -1,0 +1,14 @@
+
+# Archivos temporales de Snakemake
+.snakemake/
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Imagen Docker exportada (no necesaria en GitHub)
+analisis-pasajeros.tar

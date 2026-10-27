@@ -1,0 +1,1 @@
+const datosDinamicos = {"aic": "-138.70", "conclusion": "El modelo SARIMAX(2,1,2)(0,1,1,12) alcanzó un AIC de -138.70."};

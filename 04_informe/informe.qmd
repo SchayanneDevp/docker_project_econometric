@@ -1,0 +1,60 @@
+
+---
+title: "Análisis de la demanda de pasajeros (2017–2026)"
+subtitle: "Análisis de series temporales y pronóstico"
+format:
+  html:
+    embed-resources: true
+---
+
+## 1. Introducción
+
+Este informe presenta el análisis de la serie mensual de pasajeros y despachos entre 2017 y 2026.
+
+## 2. Evolución de la serie
+
+![Serie de pasajeros](../03_resultados/graficas/fig1_serie.png)
+
+![Serie de despachos](../03_resultados/graficas/fig2_despachos.png)
+
+## 3. Exploración de los datos
+
+![Dispersión](../03_resultados/graficas/fig3_dispersion.png)
+
+## 4. Identificación y diagnóstico del modelo
+
+![Funciones de autocorrelación](../03_resultados/graficas/fig4_fac_facp.png)
+
+![Funciones estacionales](../03_resultados/graficas/fig7_fac_facp_estacional.png)
+
+![Residuos](../03_resultados/graficas/fig5_residuales.png)
+
+![Panel de residuos](../03_resultados/graficas/fig8_residuos_panel.png)
+
+![Raíces del modelo](../03_resultados/graficas/fig9_raices.png)
+
+## 5. Pronóstico y evaluación
+
+![Pronóstico](../03_resultados/graficas/fig6_pronostico.png)
+
+![Evaluación retrospectiva](../03_resultados/graficas/fig10_backtest.png)
+
+![Estacionalidad](../03_resultados/graficas/fig11_estacionalidad.png)
+
+## 6. Tablas de resultados
+
+### Coeficientes
+
+![Tabla de coeficientes](../03_resultados/tablas/tabla1_coeficientes.png)
+
+### Pruebas diagnósticas
+
+![Tabla de pruebas](../03_resultados/tablas/tabla2_pruebas.png)
+
+### Pruebas de estacionariedad
+
+![ADF y KPSS](../03_resultados/tablas/tabla3_adf_kpss.png)
+
+### Modelos candidatos
+
+![Comparación de candidatos](../03_resultados/tablas/tabla4_candidatos.png)
